@@ -1,0 +1,20 @@
+<div id="fh5co-work" data-section="work">
+	<div class="container">
+		{{ with .Site.Params.work }}
+		<div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
+			<h2>{{ .title }}</h2>
+			<p>{{ .description | markdownify }}</p>
+		</div>
+		{{ range .item }}
+		<div class="col-md-4">
+			<div class="project">
+				<img src="{{ .img  }}" alt="" class="img-responsive">
+				<h3>{{ .title }}</h3>
+				<h4>{{ .client }}</h4>
+				<p>{{ .description | markdownify }}</p>
+			</div>
+		</div>
+		{{ end }} {{ end }}
+	</div>
+</div>
+<!-- END fh5co-gallery -->

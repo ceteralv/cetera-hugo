@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cetera</title>
+    <link>http://www.cetera.lv/</link>
+    <description>Recent content on Cetera</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>lv-lv</language>
+    
+	<atom:link href="http://www.cetera.lv/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

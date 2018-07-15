@@ -1,0 +1,245 @@
+# Main config file for icon theme.
+theme = "hugo-cetera"
+baseURL = "http://www.cetera.lv/"
+languageCode = "lv-lv"
+title = "Cetera"
+
+# Metadata
+[params]
+  author = "Ivars"
+  description = "Cetera mājas lapa"
+
+# Hero section (from here on is for icon theme)
+[params.hero]
+  img = "images/hero_bg.jpg"
+  title = "Mēs palīdzam Jums sasniegt savus mērķus!"
+  description = "Profesionāls un pieredzējis konsultāciju partneris Jūsu ceļā uz jauniem sasniegumiem"
+
+# Navigation section
+[params.nav]
+  mission = "Par mums"
+  services = "Pakapojumi"
+  work = "Projekti"
+  team = "Komanda"
+  contact = "Kontakti"
+  # Include logo instead if HOME:
+  logo = "images/logo4.png"
+
+# Mission section
+[params.mission]
+  enable = true
+
+  [params.mission.images]
+    enable = false
+
+    [[params.mission.images.list]]
+      img = "images/img_3.jpg"
+    [[params.mission.images.list]]
+      img = "images/img_2.jpg"
+    [[params.mission.images.list]]
+      img = "images/img_1.jpg"
+    [[params.mission.images.list]]
+      img = "images/img_4.jpg"
+
+  [[params.mission.item]]
+    weight = 1
+    name = "marketing"
+    title = "Kas mēs esam?"
+    subtitle = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptate laborum sapiente officiis molestiaea."
+    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae aliquid aperiam eveniet officia molestiae temporibus beatae dolores dignissimos aspernatur eius doloremque ad, eaque pariatur, repellendus illum, nostrum velit necessitatibus molestias.</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul>"
+
+  [[params.mission.item]]
+    weight = 2
+    name = "analysis"
+    title = "Mūsu filozofija"
+    subtitle = "Quam quasi illum expedita dicta nemo fugit reprehenderit similique! Corporis praesentium magnam sequi."
+    description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla explicabo, molestiae eaque fugiat dolores est esse, doloremque placeat assumenda corrupti officia dolorum. Sunt saepe ut, explicabo consectetur, nostrum illo est.</p><ul class='checked'><li>Free HTML5 Templates</li><li>Free Bootstrap Templates</li><li>Free HTML5 Bootstrap Templates</li></ul>"
+
+  [[params.mission.item]]
+    weight = 3
+    name = "strategy"
+    title = "Mūsu atšķirības"
+    subtitle = "Magnam iste obcaecati illo laboriosam amet. Dignissimos sed quis voluptatum corporis adipisci amet."
+    description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio dolore illum expedita placeat debitis, dignissimos obcaecati et modi. Possimus id dicta consequuntur veritatis, reiciendis at expedita voluptate sint distinctio eligendi!</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul>"
+
+# Services section
+[params.services]
+  enable = true
+  video = false
+  title = "Mūsu pakalpojumi"
+  description = "Mēs piedāvājam plašu klāstu biznesa un informācijas sistēmu attīstības konsultāciju pakalpojumu"
+  vidlink = "https://vimeo.com/channels/staffpicks/93951774"
+
+  [[params.services.item]]
+    icon = "icon-paper-plane"
+    title = "Stratēģija"
+    description = "Organizāciju stratēģijas definēšana<br>Darbības rādītāju izstrāde, ieviešana un uzraudzība (Balanced Scorecad)"
+
+  [[params.services.item]]
+    icon = "icon-eye"
+    title = "Procesi"
+    description = "Biznesa procesu analīze<br>Biznesa procesu modelēšana<br>Biznesa procesu pilnveide<br>Pašizmaksas analīze<br>Organizāciju attīstība"
+
+  [[params.services.item]]
+    icon = "icon-pencil"
+    title = "Informācijas sistēmu attīstība"
+    description = "IKT stratēģijas izstrāde<br>Informācijas sistēmu attīstības plānošana<br>IS arhitektūras izstrāde<br>IS prasību izstrāde<br>IS izstrādes uzraudzība<br>Programmatūras izstrāde"
+
+  [[params.services.item]]
+    icon = "icon-eye"
+    title = "ES projektu īstenošana un izvērtēšana"
+    description = "ES finansēto projektu istenošanas sagatavošana (t.sk. CFLA pieteikumu sagatavošana)<br>ES finansēto projektu īstenošanas atbalsts<br>ES finansēto projektu izvērtēšana"
+
+  [[params.services.item]]
+    icon = "icon-support"
+    title = "Projektu vadība"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+
+  [[params.services.item]]
+    icon = "icon-rocket"
+    title = "IKT pārvaldība un drošība"
+    description = "IKT pārvaldības izvērtēšana<br>IKT audits<br>IKT drošības un darbības nepārtrauktības konsultācijas<br>Personas datu aizsardzības konsultācijas"
+
+# Work section
+[params.work]
+  enable = true
+  title = "Mūsu projekti"
+  description = "Atsevišķi projekti, kas raksturo Cetera un mūsu konsltantu pieredzi"
+
+  [[params.work.item]]
+    title = "Valsts IKT arhitektūras izstrāde"
+    client= "Vides aizsardzības un reģionālās attīstības ministrija"
+    subtitle = "Web Design"
+    img = "images/img_1.jpg"
+    description ="aprasadsdaf afda fdsf dsf ds fds fd fdsa"
+
+  [[params.work.item]]
+    title = "Valsts IKT arhitektūras izstrāde"
+    client= "Vides aizsardzības un reģionālās attīstības ministrija"
+    subtitle = "Web Design"
+    img = "images/img_1.jpg"
+    description ="aprasadsdaf afda fdsf dsf ds fds fd fdsa"
+
+  [[params.work.item]]
+    title = "Valsts IKT arhitektūras izstrāde"
+    client= "Vides aizsardzības un reģionālās attīstības ministrija"
+    subtitle = "Web Design"
+    img = "images/img_1.jpg"
+    description ="aprasadsdaf afda fdsf dsf ds fds fd fdsa"
+
+  [[params.work.item]]
+    title = "Valsts IKT arhitektūras izstrāde"
+    client= "Vides aizsardzības un reģionālās attīstības ministrija"
+    subtitle = "Web Design"
+    img = "images/img_1.jpg"
+    description ="aprasadsdaf afda fdsf dsf ds fds fd fdsa"
+
+  [[params.work.item]]
+    title = "Valsts IKT arhitektūras izstrāde"
+    client= "Vides aizsardzības un reģionālās attīstības ministrija"
+    subtitle = "Web Design"
+    img = "images/img_1.jpg"
+    description ="aprasadsdaf afda fdsf dsf ds fds fd fdsa"
+
+  [[params.work.item]]
+    title = "Valsts IKT arhitektūras izstrāde"
+    client= "Vides aizsardzības un reģionālās attīstības ministrija"
+    subtitle = "Web Design"
+    img = "images/img_1.jpg"
+    description ="aprasadsdaf afda fdsf dsf ds fds fd fdsa"
+
+  [[params.work.item]]
+    title = "Valsts IKT arhitektūras izstrāde"
+    client= "Vides aizsardzības un reģionālās attīstības ministrija"
+    subtitle = "Web Design"
+    img = "images/img_1.jpg"
+    description ="aprasadsdaf afda fdsf dsf ds fds fd fdsa"
+
+  [[params.work.item]]
+    title = "Valsts IKT arhitektūras izstrāde"
+    client= "Vides aizsardzības un reģionālās attīstības ministrija"
+    subtitle = "Web Design"
+    img = "images/img_1.jpg"
+    description ="aprasadsdaf afda fdsf dsf ds fds fd fdsa"
+
+# Team section
+[params.team]
+  enable = true
+  title = "Iepazīsti mūsu komandu"
+  description = "Mūsu komandas kodolu veido pieredzējiši konsultanti ar lielu iepiekšējā darba pieredzi vadošajos Latvijas konsultāciju uzņēmumos (alfabētiskā secibā)"
+
+  [[params.team.item]]
+    name = "Anastasija Ludženiece"
+    position = "Vecākais konsultants"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    img = "images/person1.jpg"
+    #facebook = "#"
+    #twitter = "#"
+    #dribbble = "#"
+    #instagram = "#"
+    #github = "#"
+    linkedin = "#"
+
+  [[params.team.item]]
+    name = "Dita Gabaliņa"
+    position = "Vecākais konsultants"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    img = "images/person2.jpg"
+    #facebook = "#"
+    #twitter = "#"
+    #dribbble = "#"
+    #instagram = "#"
+    #github = "#"
+    linkedin = "#"
+
+  [[params.team.item]]
+    name = "Ivars Solovjovs"
+    position = "Vecākais konsultants, valdes loceklis"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    img = "images/person3.jpg"
+    #facebook = "#"
+    #twitter = "#"
+    #dribbble = "#"
+    #instagram = "#"
+    #github = "#"
+    linkedin = "#"
+
+   [[params.team.item]]
+     name = "Olga Cirpone"
+     position = "Vecākais konsultants"
+     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+     img = "images/person3.jpg"
+  #   facebook = "#"
+  #   twitter = "#"
+  #   dribbble = "#"
+  #   instagram = "#"
+  #   github = "#"
+     linkedin = "#"
+
+# Contact section
+[params.contact]
+  enable = true
+  title = "Mūsu kontaktinformācija"
+  message = ""
+  address = "Lāčplēša iela 41<br>Rīga, Latvija, LV1011"
+  phone ="+371 29209928"
+  email="info@cetera.lv"
+  bank = "LV88HABA0551044760538<br>AS Hansabanka (HABALV22)"
+
+  #name_placeholder = "Your name"
+  #email_placeholder = "Your email"
+  #email_disclaimer = "We'll never share your email with anyone else."
+  #message_placeholder = "Please enter a message."
+  #button_text = "Submit"
+
+# Footer section
+# Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
+[params.footer]
+  enable = true
+  note = "<p><small>&copy; 2018 CETERA. All Rights Reserved"
+  github = "https://github.com/ceteralv"
+  #twitter = "#"
+  facebook = "https://www.facebook.com/Cetera-250062969158914"
+  #vine = "#"
+  linkedin = "https://www.linkedin.com/company/ceteralv/"
+  #instagram = "#"
