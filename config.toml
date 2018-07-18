@@ -7,18 +7,19 @@ title = "Cetera"
 # Metadata
 [params]
   author = "Ivars"
-  description = "Cetera mājas lapa"
+  description = "SIA CETERA mājas lapa"
 
 # Hero section (from here on is for icon theme)
 [params.hero]
-  img = "images/hero_bg.jpg"
+#  img = "images/hero_bg.jpg"
+  img = "images/fons_1.jpg"
   title = "Mēs palīdzam Jums sasniegt savus mērķus!"
   description = "Profesionāls un pieredzējis konsultāciju partneris Jūsu ceļā uz jauniem sasniegumiem"
 
 # Navigation section
 [params.nav]
   mission = "Par mums"
-  services = "Pakapojumi"
+  services = "Pakalpojumi"
   work = "Projekti"
   team = "Komanda"
   contact = "Kontakti"
@@ -73,38 +74,38 @@ title = "Cetera"
   [[params.services.item]]
     icon = "icon-paper-plane"
     title = "Stratēģija"
-    description = "Organizāciju stratēģijas definēšana<br>Darbības rādītāju izstrāde, ieviešana un uzraudzība (Balanced Scorecad)"
+    description = "<li>Organizāciju stratēģijas definēšana</li><li>Darbības rādītāju izstrāde, ieviešana un uzraudzība (Balanced Scorecard)</li>"
 
   [[params.services.item]]
     icon = "icon-eye"
     title = "Procesi"
-    description = "Biznesa procesu analīze<br>Biznesa procesu modelēšana<br>Biznesa procesu pilnveide<br>Pašizmaksas analīze<br>Organizāciju attīstība"
+    description = "<li>Biznesa procesu analīze</li><li>Biznesa procesu modelēšana</li><li>Biznesa procesu pilnveide</li><li>Pašizmaksas analīze</li><li>Organizāciju attīstība</li></ul>"
 
   [[params.services.item]]
     icon = "icon-pencil"
     title = "Informācijas sistēmu attīstība"
-    description = "IKT stratēģijas izstrāde<br>Informācijas sistēmu attīstības plānošana<br>IS arhitektūras izstrāde<br>IS prasību izstrāde<br>IS izstrādes uzraudzība<br>Programmatūras izstrāde"
+    description = "<li>IKT stratēģijas izstrāde</li><li>Informācijas sistēmu attīstības plānošana</li><li>IS arhitektūras izstrāde</li><li>IS prasību izstrāde</li><li>IS izstrādes uzraudzība</li><li>Programmatūras izstrāde</li>"
 
   [[params.services.item]]
     icon = "icon-eye"
     title = "ES projektu īstenošana un izvērtēšana"
-    description = "ES finansēto projektu istenošanas sagatavošana (t.sk. CFLA pieteikumu sagatavošana)<br>ES finansēto projektu īstenošanas atbalsts<br>ES finansēto projektu izvērtēšana"
+    description = "<li>ES finansēto projektu istenošanas sagatavošana (t.sk. CFLA pieteikumu sagatavošana)</li><li>ES finansēto projektu īstenošanas atbalsts</li><li>ES finansēto projektu izvērtēšana</li>"
 
   [[params.services.item]]
     icon = "icon-support"
     title = "Projektu vadība"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    description = "<li>Lorem ipsum dolor sit amet consectetur adipisicing elit. </li><li>Eveniet nam itaque ipsam iste provident quo ipsam iste provident.</li>"
 
   [[params.services.item]]
     icon = "icon-rocket"
     title = "IKT pārvaldība un drošība"
-    description = "IKT pārvaldības izvērtēšana<br>IKT audits<br>IKT drošības un darbības nepārtrauktības konsultācijas<br>Personas datu aizsardzības konsultācijas"
+    description = "<li>IKT pārvaldības izvērtēšana</li><li>IKT audits</li><li>IKT drošības un darbības nepārtrauktības konsultācijas</li><li>Personas datu aizsardzības konsultācijas</li>"
 
 # Work section
 [params.work]
   enable = true
   title = "Mūsu projekti"
-  description = "Atsevišķi projekti, kas raksturo Cetera un mūsu konsltantu pieredzi"
+  description = "Atsevišķi projekti, kas raksturo Cetera un mūsu konsultantu pieredzi"
 
   [[params.work.item]]
     title = "Valsts IKT arhitektūras izstrāde"
@@ -148,25 +149,13 @@ title = "Cetera"
     img = "images/img_1.jpg"
     description ="aprasadsdaf afda fdsf dsf ds fds fd fdsa"
 
-  [[params.work.item]]
-    title = "Valsts IKT arhitektūras izstrāde"
-    client= "Vides aizsardzības un reģionālās attīstības ministrija"
-    subtitle = "Web Design"
-    img = "images/img_1.jpg"
-    description ="aprasadsdaf afda fdsf dsf ds fds fd fdsa"
 
-  [[params.work.item]]
-    title = "Valsts IKT arhitektūras izstrāde"
-    client= "Vides aizsardzības un reģionālās attīstības ministrija"
-    subtitle = "Web Design"
-    img = "images/img_1.jpg"
-    description ="aprasadsdaf afda fdsf dsf ds fds fd fdsa"
 
 # Team section
 [params.team]
   enable = true
   title = "Iepazīsti mūsu komandu"
-  description = "Mūsu komandas kodolu veido pieredzējiši konsultanti ar lielu iepiekšējā darba pieredzi vadošajos Latvijas konsultāciju uzņēmumos (alfabētiskā secibā)"
+  description = "Mūsu komandas kodolu veido pieredzējuši konsultanti ar lielu iepiekšējā darba pieredzi vadošajos Latvijas konsultāciju uzņēmumos."
 
   [[params.team.item]]
     name = "Anastasija Ludženiece"
@@ -183,7 +172,7 @@ title = "Cetera"
   [[params.team.item]]
     name = "Dita Gabaliņa"
     position = "Vecākais konsultants"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    description = "Dita ir eksperts IT jomā ar vairāk kā 30 gadu pieredzi informācijas sistēmu izstrādē, IS arhitektūras veidošanā, biznesa inteliģences risinājumos. Ditai ir ievērojama pieredze valsts pārvaldes efektivitātes nodrošināšanā, izmantojot IT risinājumus, publisko iestāžu darbības un publisko pakalpojumu pilnveidošanas un elektronizācijas, e-pārvaldes, kā arī nozīmīgu informācijas sistēmu izstrādes un ieviešanas jomās."
     img = "images/person2.jpg"
     #facebook = "#"
     #twitter = "#"

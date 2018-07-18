@@ -8,6 +8,7 @@ title = "My Awesome Title"
 [params]
   author = "Your name"
   description = "Cool description"
+  title = "MyTitle"
 
 # Hero section (from here on is for icon theme)
 [params.hero]

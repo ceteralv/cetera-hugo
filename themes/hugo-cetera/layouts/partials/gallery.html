@@ -1,20 +1,44 @@
 <div id="fh5co-work" data-section="work">
-	<div class="container">
-		{{ with .Site.Params.work }}
-		<div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
-			<h2>{{ .title }}</h2>
-			<p>{{ .description | markdownify }}</p>
-		</div>
-		{{ range .item }}
-		<div class="col-md-4">
-			<div class="project">
-				<img src="{{ .img  }}" alt="" class="img-responsive">
-				<h3>{{ .title }}</h3>
-				<h4>{{ .client }}</h4>
-				<p>{{ .description | markdownify }}</p>
-			</div>
-		</div>
-		{{ end }} {{ end }}
-	</div>
+    <div class="container">
+        {{ with .Site.Params.work }}
+        <div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
+            <h2>{{ .title }}</h2>
+            <p>{{ .description | markdownify }}</p>
+            <!-- <p>Valoda:{{.Site.Languages}}</p> -->
+        </div>
+        {{end}}
+
+        <!--  -->
+        <div class="col-md-4">
+
+            {{ range where .Site.Pages "Section" "projects" }} {{if eq .Section "projects"}}
+            <div class="project">
+                <h3>{{.Title}}</h3>
+                <h4>{{.Date}}</h4>
+                <h4>{{.Section}}</h4>
+                <h4>{{.Dir}}</h4>
+                <a href="{{ .URL }}" class="link black dim">
+					{{ .Title }}
+				</a>
+
+                <p>{{.Params.Client}}</p>
+
+
+                <p>{{.Description}}</p>
+            </div>
+            {{end}} {{end}}
+
+        </div>
+        <!--  -->
+
+    </div>
+
+
 </div>
+
+
+
+
+
+
 <!-- END fh5co-gallery -->

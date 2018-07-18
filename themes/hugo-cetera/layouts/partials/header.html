@@ -6,9 +6,10 @@
 	 <meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive, hugo, static site" />
 	 <meta name="author" content="FREEHTML5.CO / Hugo port " />
  -->
-{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
-{{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
-{{ with .Site.LanguageCode }}<meta http-equiv="content-language" content="{{ . }}" />{{ end }}
+{{ with .Site.Params.author }}
+<meta name="author" content="{{ . }}">{{ end }} {{ with .Site.Params.description }}
+<meta name="description" content="{{ . }}">{{ end }} {{ with .Site.LanguageCode }}
+<meta http-equiv="content-language" content="{{ . }}" />{{ end }}
 
 <!-- FREE HTML5 TEMPLATE  -->
 <!-- DESIGNED & DEVELOPED by FREEHTML5.CO -->
@@ -28,18 +29,17 @@
 <meta name="og:url" content="{{ .Permalink }}">
 <meta name="twitter:title" content="{{ .Site.Title }}" />
 <meta name="twitter:url" content="{{ .Permalink }}" />
-<meta name="twitter:card" content="" />
-{{ end }}
+<meta name="twitter:card" content="" /> {{ end }}
 
 <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 <!-- <link rel="shortcut icon" href="favicon.ico"> -->
-    
+
 <!-- Animate.css -->
 <link rel="stylesheet" href="css/animate.css">
 <!-- Icomoon Icon Fonts-->
 <link rel="stylesheet" href="css/icomoon.css">
 <!-- Simple Line Icons -->
-<link rel="stylesheet" href="css/simple-line-icons.css">
+<!-- <link rel="stylesheet" href="css/simple-line-icons.css"> -->
 <!-- Magnific Popup -->
 <link rel="stylesheet" href="css/magnific-popup.css">
 <!-- Bootstrap  -->
