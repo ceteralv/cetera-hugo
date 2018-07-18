@@ -11,7 +11,7 @@
         <!--  -->
         <div class="col-md-4">
 
-            {{ range where .Site.Pages "Section" "projects" }} {{if eq .Section "projects"}}
+            {{ range where .Site.Pages "Section" "projects" }} {{if eq .Section "projects"}} {{if eq .IsNode false }}
             <div class="project">
                 <h3>{{.Title}}</h3>
                 <h4>{{.Date}}</h4>
@@ -19,14 +19,16 @@
                 <h4>{{.Dir}}</h4>
                 <a href="{{ .URL }}" class="link black dim">
 					{{ .Title }}
-				</a>
+				</a> {{if eq .IsNode true }}
+                <p>Node</p>
+                {{end}}
 
                 <p>{{.Params.Client}}</p>
 
 
                 <p>{{.Description}}</p>
             </div>
-            {{end}} {{end}}
+            {{end}} {{end}} {{end}}
 
         </div>
         <!--  -->
