@@ -1,5 +1,6 @@
 # Main config file for icon theme.
 theme = "hugo-cetera"
+#theme = "hugo-strata-theme"
 baseURL = "http://www.cetera.lv/"
 languageCode = "lv-lv"
 title = "Cetera"

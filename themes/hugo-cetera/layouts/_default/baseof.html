@@ -1,0 +1,21 @@
+{{ partial "header" . }}
+	<body id="top">
+
+    <!-- <div class="fh5co-loader"></div> -->
+    <div class="fh5co-page">
+      <div id="fh5co-container">
+
+		{{ partial "head" . }}
+		{{ partial "nav.html" . }}
+
+		{{ "<!-- Main -->" | safeHTML }}
+		<div id="main">
+			{{ block "main" . }}
+			{{ end }}
+		</div>
+
+		{{ partial "footer" . }}
+
+		</div></div>
+	</body>
+</html>

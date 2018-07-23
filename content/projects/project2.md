@@ -1,9 +1,10 @@
 ---
 title: "Mans projekts #2"
+date: "2018-06-24T13:53:46+02:00"
 anchor: "project-2"
 weight: 5
 description: "Mans lielais projekts"
-draft: false
+draft: true
 ---
 
 ## Virsraksts

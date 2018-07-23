@@ -1,0 +1,14 @@
+{{ define "main" }}
+<div class="container">
+	<span>
+		<h1>{{ .Title }}</h1>
+	</span>
+
+	<p>
+	    {{ .Content }}
+	</p>
+
+	<!-- {{ template "_internal/disqus.html" . }} -->
+</div>
+
+{{ end }}
